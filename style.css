@@ -225,7 +225,7 @@ section:not(.hero-section) {
 
 .cookies-item {
   border: 2px solid var(--primary-color);
-  border-radius: 5px;
+  border-radius: 7px;
   flex: 0 1 calc(100% / 3);
   padding-bottom: 2rem;
   display: flex;
@@ -337,6 +337,7 @@ section:not(.hero-section) {
   padding: 1rem;
   width: 100%;
   border: none;
+  border-radius: 7px;
 }
 
 .footer-title,
