@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cookies - Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header container" id="header">
+      <a href="index.html"
+        ><img
+          srcset="
+            assets/logo-small@1x.png  105w,
+            assets/logo-small@2x.png  210w,
+            assets/logo-medium@1x.png 165w,
+            assets/logo-medium@2x.png 330w,
+            assets/logo-medium@3x.png 495w
+          "
+          sizes="(max-width: 700px) 105px, 165px"
+          src="assets/logo-medium@1x.png"
+          alt="Cookies home"
+          width="165"
+          height="55"
+          id="header-img"
+      /></a>
+      <nav id="nav-bar">
+        <ul class="menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#whyus" class="nav-link">Why us?</a></li>
+          <li><a href="#ourkitchen" class="nav-link">Our kitchen</a></li>
+          <li><a href="#cookies" class="nav-link">Cookies</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section" id="home">
+        <div class="hero-message">
+          <h1 class="title">Fresh Homemade Cookies</h1>
+          <p class="subtitle">Famous Recipe since 1989</p>
+          <a href="#cookies" class="hero-cta button">Order now</a>
+        </div>
+      </section>
+      <section id="whyus" class="container">
+        <h2 class="section-title">Why us?</h2>
+        <div class="benefits">
+          <div class="benefits-item">
+            <div class="benefits-icon">
+              <img src="assets/icon-chocolate-svg.svg" alt="" />
+            </div>
+            <h3 class="benefits-title">Belgian Chocolate</h3>
+            <p class="benefits-text">
+              Discover the world’s finest chocolate in all our cookies. Simply
+              delicious!
+            </p>
+          </div>
+          <div class="benefits-item">
+            <div class="benefits-icon">
+              <img src="assets/icon-quality-svg.svg" alt="" />
+            </div>
+            <h3 class="benefits-title">Top quality ingredients</h3>
+            <p class="benefits-text">
+              We pride ourselves in using only the highest-quality and freshest
+              ingredients to bake our cookies.
+            </p>
+          </div>
+          <div class="benefits-item">
+            <div class="benefits-icon">
+              <img src="assets/icon-homemade-svg.svg" alt="" />
+            </div>
+            <h3 class="benefits-title">Homemade</h3>
+            <p class="benefits-text">
+              Our cookies are fresh baked in our home kitchen with a lot of love
+              and care for our customers.
+            </p>
+          </div>
+          <div class="benefits-item">
+            <div class="benefits-icon">
+              <img src="assets/icon-price-svg.svg" alt="" />
+            </div>
+            <h3 class="benefits-title">Best price</h3>
+            <p class="benefits-text">
+              The perfect match of high quality and the best price on the
+              market. You’ll love it!
+            </p>
+          </div>
+          <div class="benefits-item">
+            <div class="benefits-icon">
+              <img src="assets/icon-benefits-svg.svg" alt="" />
+            </div>
+            <h3 class="benefits-title">Exclusive benefits</h3>
+            <p class="benefits-text">
+              Special offers and discounts when you join our exclusive cookie
+              lovers club.
+            </p>
+          </div>
+          <div class="benefits-item">
+            <div class="benefits-icon">
+              <img
+                src="assets/icon-delivery-svg.svg"
+                width="64"
+                height="64"
+                alt=""
+              />
+            </div>
+            <h3 class="benefits-title">Delivery</h3>
+            <p class="benefits-text">
+              Indulge in delicious, fresh baked cookies delivered to your door,
+              anywhere you are.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="ourkitchen">
+        <h2 class="section-title">Our kitchen</h2>
+        <p class="section-subtitle">
+          This is where we bake our delicious homemade cookies
+        </p>
+        <div class="video-wrapper">
+          <iframe
+            width="880"
+            height="495"
+            src="https://www.youtube.com/embed/uJwekkbGPns"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            id="video"
+            class="video"
+          ></iframe>
+        </div>
+      </section>
+      <section id="cookies" class="container">
+        <h2 class="section-title">Cookies</h2>
+        <div class="cookies-list">
+          <div class="cookies-item">
+            <h3 class="cookies-title">Traditional Cookies</h3>
+            <div class="cookies-img">
+              <img
+                srcset="
+                  assets/traditional-cookie@2x.jpg 2x,
+                  assets/traditional-cookie@3x.jpg 3x
+                "
+                src="assets/traditional-cookie@1x.jpg"
+                alt="Traditional cookies"
+                width="276"
+                height="207"
+                loading="lazy"
+              />
+            </div>
+            <p class="cookies-price">$ 3.50/each</p>
+            <ul class="cookies-description">
+              <li>&check; Chocolate Chip</li>
+              <li>&check; Triple Chocolate</li>
+              <li>&check; White Chocolate with Macadamia Nut</li>
+              <li>&check; Chocolate Chip with Walnuts</li>
+            </ul>
+            <a href="#" class="cookies-button button">Select</a>
+          </div>
+          <div class="cookies-item">
+            <h3 class="cookies-title">Small Gift Box</h3>
+            <div class="cookies-img">
+              <img
+                srcset="
+                  assets/gift-box-four-cookies@2x.jpg 2x,
+                  assets/gift-box-four-cookies@3x.jpg 3x
+                "
+                src="assets/gift-box-four-cookies@1x.jpg"
+                alt="Gift box with four cookies"
+                width="276"
+                height="207"
+                loading="lazy"
+              />
+            </div>
+            <p class="cookies-price">$ 12.00</p>
+            <ul class="cookies-description">
+              <li>&check; Four Cookies</li>
+              <li>&check; You choose the flavors</li>
+              <li>&check; Six-ounce cookies</li>
+              <li>&check; Elegant gift box</li>
+            </ul>
+            <a href="#" class="cookies-button button">Select</a>
+          </div>
+          <div class="cookies-item">
+            <h3 class="cookies-title">Large Gift Box</h3>
+            <div class="cookies-img">
+              <img
+                srcset="
+                  assets/gift-box-twelve-cookies@2x.jpg 2x,
+                  assets/gift-box-twelve-cookies@3x.jpg 3x
+                "
+                src="assets/gift-box-twelve-cookies@1x.jpg"
+                alt="Gift box with twelve cookies"
+                width="276"
+                height="207"
+                loading="lazy"
+              />
+            </div>
+            <p class="cookies-price">$ 35.00</p>
+            <ul class="cookies-description">
+              <li>&check; Twelve Cookies</li>
+              <li>&check; You choose the flavors</li>
+              <li>&check; Six-ounce cookies</li>
+              <li>&check; Elegant gift box</li>
+            </ul>
+            <a href="#" class="cookies-button button">Select</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-group container">
+        <div class="footer-section">
+          <img
+            srcset="assets/logo-medium@2x.png 2x, assets/logo-medium@3x.png 3x"
+            src="assets/logo-medium@1x.png"
+            alt="Cookies logo"
+            width="165"
+            height="55"
+            loading="lazy"
+          />
+          <p class="footer-text">Follow us:</p>
+          <ul class="social-media-list">
+            <li>
+              <a href="#">
+                <img src="assets/icon-twitter.svg" alt="Cookies twitter" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/icon-facebook.svg" alt="Cookies facebook" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/icon-instagram.svg" alt="Cookies instagram" />
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="assets/icon-pinterest.svg" alt="Cookies pinterest" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <p class="footer-title">About us</p>
+          <ul>
+            <li><a href="#" class="footer-links">Why us</a></li>
+            <li><a href="#" class="footer-links">Our kitchen</a></li>
+            <li><a href="#" class="footer-links">Cookies</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <p class="footer-title">Customer Care</p>
+          <ul>
+            <li><a href="#" class="footer-links">Nutritionals</a></li>
+            <li><a href="#" class="footer-links">Allergies</a></li>
+            <li><a href="#" class="footer-links">Conditions</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <p class="newsletter-title">Join the club</p>
+          <form
+            action="https://www.freecodecamp.org/email-submit"
+            id="form"
+            method="post"
+          >
+            <label for="email"
+              >Join our cookies lovers club and get exclusive discounts:</label
+            >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+            <input type="submit" value="Join us" id="submit" class="button" />
+          </form>
+        </div>
+      </div>
+      <div class="copyright container">
+        <p class="copyright-text">
+          2021 &copy; Made with love by Juliana Chagas for
+          <a href="https://www.freecodecamp.org/learn">freeCodeCamp</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
