@@ -11,7 +11,7 @@ Project 3/5: <a href="https://www.freecodecamp.org/learn/responsive-web-design/r
 ## Table of contents
 
 - [Layout](#layout) 
-- [My process](#👩🏻‍💻-my-process)
+- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
@@ -29,7 +29,7 @@ Project 3/5: <a href="https://www.freecodecamp.org/learn/responsive-web-design/r
 
 <img src="screenshots/mobile.png" alt="" width="260"/> <br/><br/>
 
-## 👩🏻‍💻 My process
+## My process
 
 ### Built with
 
@@ -115,7 +115,7 @@ Source: <a href="https://stackoverflow.com/questions/22252472/how-to-change-the-
 According to <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/image/image-set()">MDN</a>:
 >The image-set() CSS functional notation is a method of letting the browser pick the most appropriate CSS image from a given set, primarily for high pixel density screens.
 
-The image-set() is used to provide alternative `background-image` options, with different resolutions, that will be chosen by the browser depending on the resolution needed, it's similar to how `srcset` works. 
+The `image-set()` is used to provide alternative `background-image` options, with different resolutions, that will be chosen by the browser depending on the resolution needed, it's similar to how `srcset` works. 
 
 ```css
 .hero-section {
