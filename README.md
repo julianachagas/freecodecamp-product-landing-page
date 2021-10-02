@@ -1,4 +1,4 @@
-# FreeCodeCamp - Product Landing Page
+# freeCodeCamp - Product Landing Page
 
 Project created for the Responsive Web Design Certification from <a href="https://www.freecodecamp.org/learn">freeCodeCamp</a>.
 
@@ -10,10 +10,15 @@ Project 3/5: <a href="https://www.freecodecamp.org/learn/responsive-web-design/r
 
 ## Table of contents
 
+- [Link](#link)
 - [Layout](#layout) 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+
+## Link
+
+- Live Site URL: [CodePen](https://codepen.io/julianachagas/full/ExXbMMq)  
 
 ## Layout
 
