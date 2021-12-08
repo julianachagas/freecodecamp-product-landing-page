@@ -32,7 +32,7 @@ Project 3/5: <a href="https://www.freecodecamp.org/learn/responsive-web-design/r
 
 ### Mobile 📱
 
-<img src="screenshots/mobile.png" alt="" width="260"/> <br/><br/>
+<img src="screenshots/mobile.png" alt=""/> <br/><br/>
 
 ## My process
 
