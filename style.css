@@ -124,6 +124,7 @@ body {
   border: 2px solid var(--accent-color);
   letter-spacing: 0.05rem;
   cursor: pointer;
+  font-weight: 400; 
 }
 
 .button:hover {
