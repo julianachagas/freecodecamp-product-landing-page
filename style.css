@@ -42,6 +42,7 @@ body {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: var(--very-light-gray);
@@ -612,7 +613,7 @@ section:not(.hero-section) {
   .hero-cta {
     position: relative;
     top: 40vh;
-  }
+  } 
 
   .title {
     max-width: 60%;
